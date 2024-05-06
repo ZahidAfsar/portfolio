@@ -1,5 +1,3 @@
-import { cn } from "../utils/cn";
-import React from "react";
 import { BentoGrid, BentoGridItem } from "./bento-grid";
 import {
   IconArrowWaveRightUp,
@@ -11,24 +9,34 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
+import weather from '../../../public/images/weather.png'
+
 export function BentoGridDemo() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto">
-      {items.map((item, i) => (
-        <BentoGridItem
-          key={i}
-          title={item.title}
-          description={item.description}
-          header={item.header}
-          icon={item.icon}
-          className={i === 3 || i === 6 ? "md:col-span-2" : ""}
-        />
-      ))}
-    </BentoGrid>
+    <div className="flex justify-center">
+      <div className="max-w-6xl w-full">
+        <BentoGrid className="grid-cols-1 md:grid-cols-3 gap-8">
+          {items.map((item, i) => (
+            <BentoGridItem
+              key={i}
+              title={item.title}
+              description={item.description}
+              header={item.header}
+              icon={item.icon}
+              className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+            />
+          ))}
+        </BentoGrid>
+      </div>
+    </div>
   );
 }
+
+
 const Skeleton = () => (
-  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
+  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
+    <img src={weather.src} alt="" />
+  </div>
 );
 const items = [
   {
