@@ -9,8 +9,9 @@ import strike from '../../../public/images/strike.png'
 
 export function ThreeDCardDemo() {
   return (
-    <div className="flex justify-center flex-col xl:flex-row">
-    <div className="flex flex-col xl:flex-row xl:justify-center xl:space-x-4">
+    <>
+    <div className="flex justify-center flex-col xl:flex-row ">
+    <div className="flex flex-col lg:flex-row lg:justify-center lg:space-x-1">
       <CardContainer className="inter-var sm:mr-4">
         <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
           <CardItem
@@ -103,7 +104,11 @@ export function ThreeDCardDemo() {
           </div>
         </CardBody>
       </CardContainer>
-      <CardContainer className="inter-var mt-4 sm:mt-0">
+     
+    </div>
+    </div>
+    <div>
+    <CardContainer className="inter-var sm:mt-0">
       <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
           <CardItem
             translateZ="50"
@@ -150,6 +155,6 @@ export function ThreeDCardDemo() {
         </CardBody>
       </CardContainer>
     </div>
-    </div>
+    </>
   );
 }

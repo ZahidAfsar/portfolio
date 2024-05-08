@@ -13,9 +13,9 @@ export default function Home() {
   
 
   return (
-    <div className="h-screen">
+    <div className="min-h-screen overflow-hidden">
       <BackgroundGradientAnimation>
-        <NavbarDemo />
+        {/* <NavbarDemo /> */}
         <div className="flex justify-center pt-24">
           <h1 className="text-center text-[#025A4E] font-bold fontlife sm:text-[120px] text-[60px]">Hi. I am Zahid.</h1>
         </div>
