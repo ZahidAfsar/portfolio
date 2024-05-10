@@ -4,4 +4,6 @@
 
 ### Zahid Afsar 2024 Portfolio Website
 
-### NextJS , Typescript , Tailwind
+### NextJS, Typescript , Tailwind
+
+
