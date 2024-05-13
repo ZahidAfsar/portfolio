@@ -1,8 +1,5 @@
 
 import Image from "next/image";
-import { BackgroundGradientAnimation } from "../Components/BackgroundGradientAnimation";
-import { BentoGridDemo } from "../Components/BentoGridDemo";
-import { NavbarDemo } from "../Components/NavbarDemo";
 import { TypewriterEffectSmoothDemo } from "../Components/TypewriterEffectSmooth";
 import SkillsComponent from "../Components/SkillsComponent";
 import { ThreeDCardDemo } from "../Components/ThreeDCardDemo";
