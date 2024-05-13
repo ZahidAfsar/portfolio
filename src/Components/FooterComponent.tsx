@@ -1,7 +1,7 @@
 import React from 'react'
-import phone from '../../../public/images/icons8-phone-ios-17-filled/icons8-phone-100.png'
-import email from '../../../public/images/icons8-email-ios-17-outlined/icons8-email-100.png'
-import resume from '../../../public/images/icons8-resume-ios-17-outlined/icons8-resume-100.png'
+import phone from '../../public/images/icons8-phone-ios-17-filled/icons8-phone-100.png'
+import email from '../../public/images/icons8-email-ios-17-outlined/icons8-email-100.png'
+import resume from '../../public/images/icons8-resume-ios-17-outlined/icons8-resume-100.png'
 
 const FooterComponent = () => {
     return (

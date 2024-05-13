@@ -8,14 +8,14 @@ import SkillsComponent from "../Components/SkillsComponent";
 import { ThreeDCardDemo } from "../Components/ThreeDCardDemo";
 import FooterComponent from "../Components/FooterComponent";
 import React from "react";
+import NavBarComponent from "@/Components/NavBarComponent";
 
 export default function Home() {
   
 
   return (
-    <div className="min-h-screen overflow-hidden">
-      <BackgroundGradientAnimation>
-        {/* <NavbarDemo /> */}
+    <div className="min-h-screen overflow-hidden bgColor">
+        <NavBarComponent/>
         <div className="flex justify-center pt-24">
           <h1 className="text-center text-[#025A4E] font-bold fontlife sm:text-[120px] text-[60px]">Hi. I am Zahid.</h1>
         </div>
@@ -53,7 +53,6 @@ export default function Home() {
         <div className="py-8" >
           <FooterComponent/>
         </div>
-      </BackgroundGradientAnimation>
     </div>
   );
 }

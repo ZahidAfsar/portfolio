@@ -8,5 +8,10 @@
 }
 
 .fontlife{
-    font-family: faitlife display;
+    font-family: fairlife display;
+}
+
+.bgColor{
+        background: linear-gradient(to bottom right, rgb(193, 229, 207), rgb(244, 226, 207));
+      
 }
