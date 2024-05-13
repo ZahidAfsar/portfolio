@@ -2,7 +2,7 @@
 import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { CanvasRevealEffect } from "../Components/CanvasRevealEffect";
+import { CanvasRevealEffect } from "./CanvasRevealEffect";
 
 export function CanvasRevealEffectDemo() {
   return (

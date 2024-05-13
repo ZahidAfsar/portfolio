@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "../Components/3d-card";
+import { CardBody, CardContainer, CardItem } from "./3d-card";
 import Link from "next/link";
 import weather from '../../../public/images/weather.png'
 import poke from '../../../public/images/poke.png'
