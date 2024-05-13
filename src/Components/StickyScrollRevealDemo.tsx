@@ -2,10 +2,10 @@
 import React from "react";
 import { StickyScroll } from "./StickyScroll";
 import Image from "next/image";
-import Csharp from '../../../public/images/c-sharp.png'
-import javascript from '../../../public/images/javascript.svg'
-import typescript from '../../../public/images/typescript.svg'
-import html from '../../../public/images/html.svg'
+import Csharp from '../../public/images/c-sharp.png'
+import javascript from '../../public/images/javascript.svg'
+import typescript from '../../public/images/typescript.svg'
+import html from '../../public/images/html.svg'
 
 
 const content = [

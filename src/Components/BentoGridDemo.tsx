@@ -9,7 +9,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-import weather from '../../../public/images/weather.png'
+import weather from '../../public/images/weather.png'
 
 export function BentoGridDemo() {
   return (
