@@ -5,7 +5,7 @@ import SkillsComponent from "../Components/SkillsComponent";
 import { ThreeDCardDemo } from "../Components/ThreeDCardDemo";
 import FooterComponent from "../Components/FooterComponent";
 import React from "react";
-import NavBarComponent from "@/Components/NavBarComponent";
+import NavBarComponent from "../Components/NavBarComponent";
 
 export default function Home() {
   
